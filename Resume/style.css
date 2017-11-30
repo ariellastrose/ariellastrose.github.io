@@ -1,0 +1,150 @@
+
+/*CSS Reset*/
+body {
+  margin: 0;
+}
+header {
+  display: grid;
+  grid-row: 1/-1;
+  grid-column: 1/-1;
+  margin: 0px 0px 0px 0px;
+  background: linear-gradient(rgb(93, 180, 180), pink);
+  background: -webkit-linear-gradient(rgb(93, 180, 180), pink);
+  background: -webkit-gradient(linear, center top, center bottom, color-stop(rgb(93,180,180),pink), color-stop(pink));
+  background: -ms-linear-gradient(rgb(93, 180, 180), pink);
+  /*Gradient code format provided by Colorzilla's Gradient Generator*/
+  background-position: center top;
+  color: #fff;
+  text-align: center;
+  line-height: 15px;
+  box-shadow:0px 0px 1px 0px;
+  /*max-width: 960px;*/
+  margin: 0px auto 0px auto;
+}
+
+.image {
+  border-radius: 50%;
+  border: 1px solid rgb(248, 248, 248);
+}
+
+a {
+  text-decoration: none;
+  color: rgb(192, 91, 176);
+}
+
+a:hover{
+  color: rgb(93, 180, 180);
+}
+
+a:active {
+  color: rgb(246, 203, 121);
+}
+
+a:visited {
+  color: rgb(255, 0, 101);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  color: #343434;
+}
+
+h1 {
+  font-size: 76px;
+  color: #fff;
+}
+
+#objective {
+  box-shadow:0px 0px 1px 0px;
+  margin: 0px auto 20px auto;
+  padding: 20px 40px 20px 40px;
+  text-align: left;
+  background-color: rgb(248, 248, 248);
+  color: #343434;
+  /*max-width: 880px;*/
+
+}
+
+#objective h2{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+
+h2 {
+  text-transform: uppercase;
+}
+
+h4 {
+  margin-bottom: 5px;
+}
+
+#hfont {
+  font-size: 36px;
+}
+
+.hlink, #paragraph{
+  font-size: 22px;
+}
+
+.icons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1em;
+}
+
+#envelope {
+  text-align: right;
+}
+
+
+#linkedin {
+  text-align: left;
+}
+
+
+#paragraph {
+  font-family: 'Roboto', sans-serif;
+  color: #2f2f2f;
+  font-weight: 300;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 15px;
+  font-family: 'Roboto', sans-serif;
+  color: #2f2f2f;
+  font-weight: 300;
+  max-width: 960px;
+  margin: 0px auto;
+
+}
+
+.lineheight {
+margin: 0px;
+line-height: 1.3em;
+}
+
+.underline {
+  display: inline-block;
+  border-width: 0px 0px 2px 0px;
+  border-style: solid;
+  border-color: rgb(246, 203, 121);
+  padding: 0px 0px 10px 0px;
+}
+
+.underlinebottom {
+  border-width: 0px 0px 1px 0px;
+  border-style: solid;
+  border-color: rgba(93, 180, 180, 0.3);
+}
+
+#space {
+  margin-bottom: 18px;
+}
+
+
+/*
+  CSS grid scaffolding provided by Erin Brown.
+  http://github.com/umiami-web-design/grid-templates
+*/
